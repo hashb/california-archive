@@ -1,9 +1,8 @@
- # california
+# california
 
-
-
-TODO: Delete this and the text above, and describe your gem
-
+This is a theme inspired by my time in California. I use it for my personal
+website which you can see at https://chenna.me. Feel free use to use it and
+remix it as you wish.
 
 ## Installation
 

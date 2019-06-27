@@ -4,4 +4,6 @@ layout: default
 
 {{ content }}
 
+{% if page.date %}
 <p class="meta">Posted on <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished"><span class="postdate">{{ page.date | date: "%b %d, %Y" }}</span></time></p>
+{% endif %}
