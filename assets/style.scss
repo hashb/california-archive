@@ -1,0 +1,10 @@
+---
+# Consolidating styles
+---
+
+@charset 'utf-8';
+
+@import 'main';
+
+// Import colors
+@import "colors-{{ site.color_theme | default: 'tufte' }}";
