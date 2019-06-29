@@ -70,8 +70,7 @@ pre {
   overflow: auto;
 }
 
-.code-wrap {
-  overflow-x: auto;
+.code-wrap code {
   white-space: pre-wrap;
   white-space: -moz-pre-wrap;
   white-space: -pre-wrap;
