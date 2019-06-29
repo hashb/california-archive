@@ -1,5 +1,7 @@
 # california
 
+[![Gem Version](https://badge.fury.io/rb/jekyll-california.svg)](https://badge.fury.io/rb/jekyll-california)
+
 This is a theme inspired by my time in California. I use it for my personal
 website which you can see at https://chenna.me. Feel free use to use it and
 remix it as you wish.
