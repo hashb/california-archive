@@ -4,46 +4,38 @@ html, body {
 }
 
 a, a:visited, a:active {
-  color: #2aa198;
-  border-color: #eee8d5;
+  color: $royal-blue;
 }
 
 a:hover {
-  background-color: #eee8d5;
-  border-color: #eee8d5;
-  color: #2aa198;
+  background-color: $a-background;
+  color: $utah-red;
 }
 
 h1, h2, h3 {
-  color: #cb4b16;
+  color: $headings;
+  font-weight:bold;
 }
 
 h1 a, h1 a:visited, h1 a:active {
-  color: #cb4b16;
+  color: $utah-red;
 }
 
 h1 a:hover {
-  background-color: #eee8d5;
-  border-color: #eee8d5;
+  background-color: $a-background;
 }
 
 article h1 a.anchor {
   color: #111111;
 }
 
-blockquote {
-  border-color: #cb4b16;
-}
-
 #sidebar a:hover {
-  color: #cb4b16;
-  background-color: #eee8d5;
+  color: $utah-red;
 }
 
-#footer {
-  border-color: #eee8d5;
+p code {
+  background-color: #fff8ff;
 }
-
 
 
 /*** Pygments ***/
