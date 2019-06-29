@@ -227,6 +227,15 @@ img.center {
   max-width: 95%;
 }
 
+/*** Archive ***/
+div.archive-item article {
+  margin-bottom: 5px;
+}
+
+div.archive-item time {
+  font: 0.85em Monaco, Courier, Monospace;
+}
+
 /*
  TODO: figure and related css;
  */
