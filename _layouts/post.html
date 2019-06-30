@@ -3,6 +3,10 @@ layout: default
 ---
 <article class="post">
 
+  {% if page.mathjax %}
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML' async></script>
+  {% endif %}
+
   {% if page.external-url %}
     <h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
 
