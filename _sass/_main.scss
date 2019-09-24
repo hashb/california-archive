@@ -13,9 +13,9 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 body {
   line-height: 1;
 }
-ol, ul {
-  list-style: bullet;
-}
+// ol, ul {
+//   list-style: bullet;
+// }
 blockquote, q {
   quotes: none;
 }
@@ -33,6 +33,11 @@ table {
 
 // fonts
 @import url('https://fonts.googleapis.com/css?family=Karla&display=swap');
+
+@font-face {
+    font-family: xkcd-script;
+    src: url('/assets/font/xkcd-script.woff') format('woff');
+}
 
 /*** Basics ***/
 body {
@@ -171,7 +176,7 @@ h3 {
 
 #sidebar a {
   border: none;
-  font-family: 'Karla', sans-serif;
+  font-family: 'xkcd-script', 'Karla', sans-serif;
   font-size: 1em;
   padding: 2px 4px;
 }
