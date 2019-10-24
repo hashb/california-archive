@@ -34,10 +34,10 @@ table {
 // fonts
 @import url('https://fonts.googleapis.com/css?family=Karla&display=swap');
 
-@font-face {
-    font-family: xkcd-script;
-    src: url('/assets/font/xkcd-script.woff') format('woff');
-}
+// @font-face {
+//     font-family: xkcd-script;
+//     src: url('/assets/font/xkcd-script.woff') format('woff');
+// }
 
 /*** Basics ***/
 body {
@@ -176,7 +176,7 @@ h3 {
 
 #sidebar a {
   border: none;
-  font-family: 'xkcd-script', 'Karla', sans-serif;
+  // font-family: 'xkcd-script', 'Karla', sans-serif;
   font-size: 1em;
   padding: 2px 4px;
 }
