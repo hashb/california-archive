@@ -63,8 +63,15 @@ ol li, ul li { margin-top: 10px; margin-bottom: 10px; }
 em, i { font-style: italic; }
 strong, b { font-weight: bold; }
 small { font-size: 1em; }
-sup { vertical-align: super; font-size: 0.85em; }
 sub { vertical-align: sub; font-size: 0.85em; }
+
+sup {
+  vertical-align: baseline;
+  font-size: 0.85em;
+  position: relative;
+  top: -0.45em;
+}
+
 
 code {
   font: 0.85em Monaco, Monospace;
