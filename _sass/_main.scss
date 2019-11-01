@@ -126,7 +126,13 @@ h3 {
 .img-middle { vertical-align: middle; }
 .nopadding { padding: 0; }
 .nounderline { text-decoration: underline; }
-.emoji { height: 1.2em; width: 1.2em; }
+
+.emoji {
+  display: inline;
+  margin: auto;
+  height: 1.2em;
+  width: 1.2em;
+}
 
 
 /*** Structure ***/
