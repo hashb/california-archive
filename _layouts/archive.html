@@ -20,6 +20,8 @@ layout: default
 
 {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
 {% capture next_year %}{{ post.next.date | date: '%Y' }}{% endcapture %}
+{% capture month %}{{ post.date | date: '%m' }}{% endcapture %}
+{% capture next_month %}{{ post.next.date | date: '%m' }}{% endcapture %}
 
 {% if year != next_year %}
 
@@ -34,6 +36,10 @@ layout: default
 
 {% endif %}
 {% endunless %}
+
+{% if month != next_month %}
+    <br>
+{% endif %}
 
     <p>
       <time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%d %b" }}</time>&nbsp;&nbsp;
