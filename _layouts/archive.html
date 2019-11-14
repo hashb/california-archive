@@ -37,8 +37,8 @@ layout: default
 {% endif %}
 {% endunless %}
 
-{% if month != next_month %}
-    <br>
+{% if month != next_month and year == next_year %}
+    <p> </p>
 {% endif %}
 
     <p>
