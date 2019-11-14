@@ -14,7 +14,7 @@ layout: default
 
   <div class="archive-item">
     <h2>{{ post.date | date: '%Y' }}</h2>
-    <div>
+    <div class="archive-month">
 
 {% else %}
 
@@ -32,13 +32,14 @@ layout: default
 
   <div class="archive-item">
     <h2>{{ post.date | date: '%Y' }}</h2>
-    <div>
+    <div class="archive-month">
 
 {% endif %}
 {% endunless %}
 
 {% if month != next_month and year == next_year %}
-    <p><br></p>
+    </div>
+    <div class="archive-month">
 {% endif %}
 
     <p>
