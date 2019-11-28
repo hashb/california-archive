@@ -245,6 +245,24 @@ img.center {
   max-width: 95%;
 }
 
+/*** Footnotes ***/
+div.footnotes {
+  font-size: 0.80em;
+  border: 1px dashed #969696;
+}
+
+div.footnotes p {
+  margin-bottom: 0px;
+}
+
+div.footnotes ol {
+  padding: 10px 0px 10px 30px;
+}
+
+div.footnotes li:target {
+  background-color: #007fff;
+}
+
 /*** Archive ***/
 div.archive-item h2 {
   margin-top: 5px;
@@ -264,7 +282,7 @@ div.archive-month {
 }
 
 mark {
-  background-color: #c7edc0;
+  background-color: #e6c0ed;
 }
 
 /*
