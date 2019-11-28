@@ -252,6 +252,10 @@ div.footnotes {
 }
 
 div.footnotes p {
+  width: auto;
+  white-space: inherit;
+  overflow: hidden;
+  text-overflow: ellipsis;
   margin-bottom: 0px;
 }
 
