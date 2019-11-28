@@ -13,8 +13,12 @@ layout: default
     {% endif %}
 
     <div class="post-content">
-      {{ post.excerpt }}
-      <p><a href="{{ post.url }}">~more></a></p>
+      {% if post.excerpt %}
+        {{ post.excerpt }}
+        <p><a href="{{ post.url }}">~more></a></p>
+      {% else %}
+        {{ post.content }}
+      {% endif %}
     </div>
 
   </article>
