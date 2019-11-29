@@ -44,7 +44,19 @@ layout: default
 
     <p>
       <time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%d %b" }}</time>&nbsp;&nbsp;
-      <a href="{{ post.url | absolute_url }}" title="{{ post.title }}">{{ post.title }}</a>
+      <a href="{{ post.url | absolute_url }}" title="{{ post.title }}">{{ post.title }}</a>&nbsp;
+      {% if post.last_modified_at %}
+      {% comment %}
+      https://stackoverflow.com/questions/37340705/shopify-liquid-find-number-of-days-between-two-dates
+      {% endcomment %}
+      {% assign curr_date = 'now' | date: '%s' %}
+      {% assign updated_date = post.last_modified_at | date: '%s' %}
+      {% assign diff_seconds = curr_date | minus: updated_date %}
+      {% assign diff_days = diff_seconds | divided_by: 3600 | divided_by: 24 %}
+      {% if diff_days < 14 %}
+      🔸
+      {% endif% }
+      {% endif %}
     </p>
 
   {% if forloop.last %}
