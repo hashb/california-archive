@@ -1,4 +1,4 @@
-name: blag
+name: California
 url: california.kautilya.ch
 permalink: /:year/:month/:day/:title/
 title: California
@@ -6,6 +6,18 @@ email: california@kautilya.ch
 description: 'California Theme'
 baseurl: ""  # the subpath of your site, e.g. /blog
 url: "https://california.kautilya.ch"  # the base hostname & protocol for your site
+
+paginate: 4
+paginate_path: '/blog/page:num/'
+permalink: '/blog/:year/:month/:day/:title/'
+
+excerpt_separator: <!-- more -->
+
 markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+  math_engine: mathjax
+  syntax_highlighter: rouge
 
 port: 4040
