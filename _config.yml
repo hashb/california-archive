@@ -1,0 +1,11 @@
+name: blag
+url: california.kautilya.ch
+permalink: /:year/:month/:day/:title/
+title: California
+email: california@kautilya.ch
+description: 'California Theme'
+baseurl: ""  # the subpath of your site, e.g. /blog
+url: "https://california.kautilya.ch"  # the base hostname & protocol for your site
+markdown: kramdown
+
+port: 4040
