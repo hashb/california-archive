@@ -4,6 +4,8 @@ layout: default
 
 <h1>Archives</h1>
 
+{{ content }}
+
 {% for post in site.posts %}
 {% unless post.next %}
 
@@ -65,3 +67,5 @@ layout: default
   {% endif %}
 
 {% endfor %}
+
+<p class="meta">🔸 = Recently updated</p>
