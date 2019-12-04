@@ -13,6 +13,13 @@ permalink: '/blog/:year/:month/:day/:title/'
 
 excerpt_separator: <!-- more -->
 
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jemoji
+  - jekyll-feed
+
 markdown: kramdown
 kramdown:
   input: GFM
