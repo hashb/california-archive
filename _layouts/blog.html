@@ -6,11 +6,7 @@ layout: default
 
   <article class="post">
 
-    {% if post.external-url %}
-      <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
-    {% else %}
-      <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
-    {% endif %}
+    <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
 
     <div class="post-content">
       {% if post.content contains site.excerpt_separator %}
@@ -24,7 +20,7 @@ layout: default
   </article>
 
 {% endfor %}
-
+ 
 
 
 {% if paginator.total_pages > 1 %}
